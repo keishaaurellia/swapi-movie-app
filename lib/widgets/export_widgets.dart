@@ -1,0 +1,9 @@
+export 'app_badge.dart';
+export 'movie_card.dart';
+export 'ticket_card.dart';
+export 'cinema_card.dart';
+export 'schedule_dialog.dart';
+export 'star_wars_crawl_dialog.dart';
+export 'app_error_view.dart';
+export 'offline_banner.dart';
+export 'app_search_bar.dart';

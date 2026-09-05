@@ -1,0 +1,69 @@
+name: cinemax_app
+description: Production-grade Flutter 3 mobile application — CineMax hiring assessment.
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^8.1.5
+  bloc: ^8.1.4
+  equatable: ^2.0.5
+
+  # Dependency Injection
+  get_it: ^7.6.7
+
+  # Networking
+  dio: ^5.4.3+1
+
+  # Routing
+  go_router: ^13.2.5
+
+  # Maps & Location
+  geolocator: ^11.0.0
+
+  # Local Notifications
+  flutter_local_notifications: ^17.1.2
+  timezone: ^0.9.4
+
+  # Event Bus
+  event_bus: ^2.0.0
+
+  # UI & Utilities
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.1
+
+  # Functional Error Handling
+  dartz: ^0.10.1
+
+  # Logging
+  logger: ^2.3.0
+
+  # Equatable (already included above via equatable)
+  cupertino_icons: ^1.0.8
+  flutter_map: ^8.3.2
+  latlong2: ^0.10.1
+  intl: ^0.20.3
+  shared_preferences: ^2.2.2
+  connectivity_plus: ^7.3.1
+  stream_transform: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  bloc_test: ^9.1.7
+  mocktail: ^1.0.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/movies/
+    - assets/images/movies/logos/
